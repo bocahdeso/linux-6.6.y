@@ -7,6 +7,8 @@ dtb-$(CONFIG_ARCH_MESON) += meson-axg-jethome-jethub-j100.dtb
 dtb-$(CONFIG_ARCH_MESON) += meson-axg-jethome-jethub-j110-rev-2.dtb
 dtb-$(CONFIG_ARCH_MESON) += meson-axg-jethome-jethub-j110-rev-3.dtb
 dtb-$(CONFIG_ARCH_MESON) += meson-axg-s400.dtb
+dtb-$(CONFIG_ARCH_MESON) += meson-g12a-b860h-v5.dtb
+dtb-$(CONFIG_ARCH_MESON) += meson-g12a-hg680-fj.dtb
 dtb-$(CONFIG_ARCH_MESON) += meson-g12a-radxa-zero.dtb
 dtb-$(CONFIG_ARCH_MESON) += meson-g12a-s905l3a-cm311.dtb
 dtb-$(CONFIG_ARCH_MESON) += meson-g12a-s905l3a-e900v22c.dtb
@@ -141,5 +143,7 @@ dtb-$(CONFIG_ARCH_MESON) += meson-sm1-x96-max-plus-ip1001m.dtb
 dtb-$(CONFIG_ARCH_MESON) += meson-sm1-x96-max-plus-oc.dtb
 dtb-$(CONFIG_ARCH_MESON) += meson-sm1-x96-max-plus-q1.dtb
 dtb-$(CONFIG_ARCH_MESON) += meson-sm1-x96-max-plus-q2.dtb
+dtb-$(CONFIG_ARCH_MESON) += meson-sm1-x96-max-plus-q1.dtb
+dtb-$(CONFIG_ARCH_MESON) += meson-sc2-s905x4-ah212.dtb
 
 subdir-y	:= $(dtb-dirs) overlay
